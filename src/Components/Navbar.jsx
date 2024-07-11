@@ -47,7 +47,7 @@ const Navbar = () => {
             <div>
               <a href="/" className="flex gap-1 font-bold text-gray-700 items-center">
                 <span className="h-7 text-primary flex justify-center items-center overflow-hidden">
-                  <img src="src/assets/logo.png" className="h-full w-auto" alt="Logo" />
+                  <img src="https://github.com/ncjpr04/AlignIt/blob/main/src/assets/logo.png?raw=true" className="h-full w-auto" alt="Logo" />
                 </span>
               </a>
             </div>
