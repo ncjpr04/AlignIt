@@ -47,16 +47,16 @@ const Navbar = () => {
             <div>
               <a href="/" className="flex gap-1 font-bold text-gray-700 items-center">
                 <span className="h-7 text-primary flex justify-center items-center overflow-hidden">
-                  <img src="https://github.com/ncjpr04/AlignIt/blob/main/src/assets/logo.png?raw=true" className="h-full w-auto" alt="Logo" />
+                  <img src="src\assets\logo.png" className="h-full w-auto" alt="Logo" />
                 </span>
               </a>
             </div>
             {/* Primary menu */}
             <div className="hidden lg:flex gap-8">
-              <a href="/" className="flex items-center justify-center rounded-full py-1 px-3 hover:bg-slate-400 hover:text-slate-100">Home</a>
-              <a href="/Games" className="flex items-center justify-center rounded-full py-1 px-3 hover:bg-slate-400 hover:text-slate-100">Games</a>
-              <a href="/Reviews" className="flex items-center justify-center rounded-full py-1 px-3 hover:bg-slate-400 hover:text-slate-100">Reviews</a>
-              <a href="/contact" className="flex items-center justify-center rounded-full py-1 px-3 hover:bg-slate-400 hover:text-slate-100">Contact Us</a>
+              <a href="/" className="flex items-center justify-center rounded-full py-1 px-3 hover:bg-primary hover:text-slate-100">Home</a>
+              <a href="/Games" className="flex items-center justify-center rounded-full py-1 px-3 hover:bg-primary hover:text-slate-100">Games</a>
+              <a href="/Reviews" className="flex items-center justify-center rounded-full py-1 px-3 hover:bg-primary hover:text-slate-100">Reviews</a>
+              <a href="/contact" className="flex items-center justify-center rounded-full py-1 px-3 hover:bg-primary hover:text-slate-100">Contact Us</a>
             </div>
           </div>
 
@@ -91,10 +91,10 @@ const Navbar = () => {
           <div className={`fixed z-40 w-full rounded-3xl bg-white/75 backdrop-blur-md max-w-xl shadow-md overflow-hidden flex items-center flex-col lg:hidden gap-12 origin-left duration-700 ${!isOpen ? "h-0" : "h-fit"}`}>
             <div className="px-8 overflow-hidden">
               <div className="flex flex-col py-2 items-center font-bold tracking-wider">
-                <a href="/" className="w-full h-full flex items-center justify-center my-1 px-10 py-2 rounded-full hover:bg-slate-400 hover:text-slate-100">Home</a>
-                <a href="/about" className="w-full h-full flex items-center justify-center my-1 px-10 py-2 rounded-full hover:bg-slate-400 hover:text-slate-100">Games</a>
-                <a href="/classes" className="w-full h-full flex items-center justify-center my-1 px-10 py-2 rounded-full hover:bg-slate-400 hover:text-slate-100">Reviews</a>
-                <a href="/contact" className="w-full h-full flex items-center justify-center my-1 px-10 py-2 rounded-full hover:bg-slate-400 hover:text-slate-100">Contact Us</a>
+                <a href="/" className="w-full h-full flex items-center justify-center my-1 px-10 py-2 rounded-full hover:bg-primary hover:text-slate-100">Home</a>
+                <a href="/about" className="w-full h-full flex items-center justify-center my-1 px-10 py-2 rounded-full hover:bg-primary hover:text-slate-100">Games</a>
+                <a href="/classes" className="w-full h-full flex items-center justify-center my-1 px-10 py-2 rounded-full hover:bg-primary hover:text-slate-100">Reviews</a>
+                <a href="/contact" className="w-full h-full flex items-center justify-center my-1 px-10 py-2 rounded-full hover:bg-primary hover:text-slate-100">Contact Us</a>
               </div>
             </div>
           </div>

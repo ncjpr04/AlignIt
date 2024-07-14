@@ -2,6 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Background of the scrollbar track */
+::-webkit-scrollbar-track {
+  background: var(--background-color);
+  border-radius: 10px;
+}
+
+/* Background of the draggable scrollbar handle */
+::-webkit-scrollbar-thumb {
+  background: var(--text-color);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-color);
+}
+
+/* Directional buttons */
+/* ::-webkit-scrollbar-button {
+  background: #ccc;
+
+} */
+
+/* Corner where the horizontal and vertical scrollbars meet */
+::-webkit-scrollbar-corner {
+  background: #999;
+}
+
+
+:root {
+  --primary-color: #2980b9;
+  --secondary-color: #27ae60;
+  --background-color: #2c3e50;
+  --text-color: #ecf0f1;
+}
+
+Dark theme
+[data-theme="dark"] {
+  
+  --primary-color: #d7a3e5;
+  --primary-color-50: #ac34db84;
+  --secondary-color: #2ecc71;
+  --background-color: #ffffff;
+  --text-color: #333333;
+}
+
+
 .poppins-thin {
     font-family: "Poppins", sans-serif;
     font-weight: 100;
