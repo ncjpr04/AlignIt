@@ -7,6 +7,9 @@ export default {
 
   theme: {
     extend: {
+      margin: {
+        calc: 'calc(82vw - 4.5rem)',
+    },
       colors: {
         'primary': 'var(--primary-color)',
         'primary/50': 'var(--primary-color-50)',
