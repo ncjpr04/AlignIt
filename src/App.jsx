@@ -2,7 +2,7 @@ import React from 'react';
 import Home from './Components/Home';
 import Navbar from './Components/Navbar';
 import Games from './Components/Games';
-
+import './App.css';
 function App() {
   return (
     <div className="overflow-x-hidden relative">

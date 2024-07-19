@@ -166,5 +166,5 @@ Dark theme
   }
 
   body{
-    @apply bg-neutral-950 font-poppins
+    @apply bg-neutral-950 font-poppins;
   }

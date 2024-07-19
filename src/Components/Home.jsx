@@ -1,21 +1,25 @@
 import React from 'react';
+import { useTextAnimation } from './useTextAnimation';
 
-function Home() {
+const Home = () => {
+    useTextAnimation();
     return (
         <div className='main w-screen h-fit bg-[#222222] flex justify-center overflow-hidden px-4 py-10 lg:px-6 md:px-6 sm:px-6  lg:py-10 md:py-10  sm:pt-12 sm:pb-10  items-center overflow-x-hidden'>
             <div className='w-full min-h-[70vh] box-border rounded-xl lg:rounded-3xl justify-between flex bg-[#141414]  h-full my-1  lg:px-12 pt-12 lg:pb-12 pb-3 flex-col'>
-                <div class=" h-full mt-8 justify-around  grow  md:px-8  mx-8 md:mt-[13vh] flex flex-col gap-4">
-                    <div class="flex gap-3 justify-start items-center">
-                        <div className='h-[0.125rem] w-[0.125rem] rounded-full min-w-[10px] min-h-[10px] bg-primary'></div>
-                        <span class="md:font-bold lg:font-bold  lg:text-[1vw] md:text-[1.8vw] sm:text-md text-[3vw] text-text md:leading-1 md:tracking-normal lg:tracking-wider leading-0 sm:leading-1 sm:tracking-normal lg:leading-5 capitalize">
-                            Explore our collection of high-quality, engaging board games for all ages and skill levels.
+                <div className=" h-full mt-8 justify-around  grow  md:px-8  mx-8 md:mt-[13vh] flex flex-col gap-4">
+                    <div className="nitin flex gap-3 justify-start items-center">
+                        <div className='blink h-[0.125rem] w-[0.125rem] rounded-full min-w-[10px] min-h-[10px] bg-primary'></div>
+                        <span>
+                            <h1 className="upperText md:font-bold lg:font-bold  lg:text-[1vw] md:text-[1.8vw] sm:text-md text-[3vw] text-text md:leading-1 md:tracking-normal lg:tracking-wider leading-0 sm:leading-1 sm:tracking-normal lg:leading-5 capitalize">
+                                Explore our collection of high-quality, engaging board games for all ages and skill levels.
+                            </h1>
                         </span>
                     </div>
-                    <h2 class="lg:text-[6vw] md:text-[6vw] font-extrabold  lg:w-3/4 md:w-full  text-[10vw] sm:text-[9.5vw] text-text font-spaceGrotesk leading-none  tracking-normal">
+                    <h2 className="mainText lg:text-[6vw] md:text-[6vw] font-extrabold  lg:w-3/4 md:w-full  text-[10vw] sm:text-[9.5vw] text-text font-spaceGrotesk leading-none  tracking-normal">
                         Discover the Joy of Board Games
                     </h2>
-                    <div class="flex flex-wrap justify-between items-end py-4 w-full ">
-                        <div class="opacity-80 md:font-bold lg:font-bold lg:text-[1.5vw]  md:text-[1.8vw] sm:text-md text-[3vw] text-text md:leading-1 md:tracking-normal tracking-widest leading-0 sm:leading-1 lg:tracking-wide sm:tracking-normal lg:leading-9 capitalize lg:w-2/3   sm:text-md  ">
+                    <div className="flex flex-wrap justify-between items-end py-4 w-full ">
+                        <div className="opacity-80 md:font-bold lg:font-bold lg:text-[1.5vw]  md:text-[1.8vw] sm:text-md text-[3vw] text-text md:leading-1 md:tracking-normal tracking-widest leading-0 sm:leading-1 lg:tracking-wide sm:tracking-normal lg:leading-9 capitalize lg:w-2/3   sm:text-md  ">
                             Building board games that dignify the interest of players and continuously improving the gaming experience, making games a part of life.
                         </div>
                         {/* <div class="w-5/6 pl-[80%] flex z-20 gap-4 flex-row justify-center items-center"> */}

@@ -1,0 +1,32 @@
+.upperText span {
+    display: inline-block;
+    margin-right: 6px;
+
+
+}
+
+.mainText span {
+    display: inline-block;
+    margin-right: 15px;
+    overflow: hidden;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.blink {
+    animation: blink 0.6s step-end 1.3s infinite;
+    animation-iteration-count: 8;
+}
