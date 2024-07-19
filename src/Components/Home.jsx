@@ -19,7 +19,7 @@ const Home = () => {
                         Discover the Joy of Board Games
                     </h2>
                     <div className="flex flex-wrap justify-between items-end py-4 w-full ">
-                        <div className="opacity-80 md:font-bold lg:font-bold lg:text-[1.5vw]  md:text-[1.8vw] sm:text-md text-[3vw] text-text md:leading-1 md:tracking-normal tracking-widest leading-0 sm:leading-1 lg:tracking-wide sm:tracking-normal lg:leading-9 capitalize lg:w-2/3   sm:text-md  ">
+                        <div className="lowerText opacity-80 md:font-bold lg:font-bold lg:text-[1.5vw]  md:text-[1.8vw] sm:text-md text-[3vw] text-text md:leading-1 md:tracking-normal tracking-widest leading-0 sm:leading-1 lg:tracking-wide sm:tracking-normal lg:leading-9 capitalize lg:w-2/3   sm:text-md  ">
                             Building board games that dignify the interest of players and continuously improving the gaming experience, making games a part of life.
                         </div>
                         {/* <div class="w-5/6 pl-[80%] flex z-20 gap-4 flex-row justify-center items-center"> */}

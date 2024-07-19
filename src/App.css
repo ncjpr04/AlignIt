@@ -4,6 +4,11 @@
 
 
 }
+.lowerText span {
+    display: inline-block;
+    margin-right: 6px;
+    overflow: hidden;
+}
 
 .mainText span {
     display: inline-block;

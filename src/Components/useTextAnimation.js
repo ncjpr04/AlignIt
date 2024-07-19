@@ -8,6 +8,7 @@ export const useTextAnimation = () => {
         function breakTheText() {
             const mainTextElements = document.getElementsByClassName("mainText");
             const upperTextElements = document.getElementsByClassName("upperText");
+            const lowerTextElements = document.getElementsByClassName("lowerText");
             if (upperTextElements.length > 0) {
                 const upperTextElement = upperTextElements[0];
                 const upperText = upperTextElement.textContent;
@@ -28,6 +29,16 @@ export const useTextAnimation = () => {
                 });
                 mainTextElement.innerHTML = mainclutter;
             }
+            if (lowerTextElements.length > 0) {
+                const lowerTextElement = lowerTextElements[0];
+                const lowerText = lowerTextElement.textContent;
+                const splitedlowerText = lowerText.split(" "); // Split into individual words
+                let lowerclutter = "";
+                splitedlowerText.forEach(function (lowerelem) {
+                    lowerclutter += `<span>${lowerelem} </span>`; // Add a space after each word
+                });
+                lowerTextElement.innerHTML = lowerclutter;
+            }
         }
 
         // Ensure the DOM is ready before accessing elements
@@ -40,6 +51,13 @@ export const useTextAnimation = () => {
             delay: 0.5,
             opacity: 0,
             stagger: 0.15
+        });
+        gsap.from(".lowerText span", {
+            z: 100,
+            duration: 0.3,
+            delay: 3.5,
+            opacity: 0,
+            stagger: 0.1
         });
         gsap.from(".upperText span", {
             z: 100,
