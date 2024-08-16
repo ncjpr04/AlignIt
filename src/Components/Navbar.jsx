@@ -98,7 +98,7 @@ const Navbar = () => {
                     className="relative border-2 group hover:border-green-500 w-6 h-6 duration-500 ease-in-out overflow-hidden"
                     type="button"
                   >
-                    <p className="font-Manrope text-3xl h-full w-full flex items-center justify-center border text-white duration-500 relative z-10 group-hover:scale-0">
+                    <p className="font-Manrope text-3xl h-full w-full flex items-center justify-center  text-white duration-500 relative z-10 group-hover:scale-0">
                       ×
                     </p>
                     <span className="absolute w-full h-full bg-blue-500 rotate-45 group-hover:top-4 duration-500 top-12 left-0"></span>
@@ -107,7 +107,7 @@ const Navbar = () => {
                     <span className="absolute w-full h-full bg-blue-500 rotate-45 group-hover:bottom-4 duration-500 bottom-12 right-0"></span>
                   </button>
                 ) : (
-                  <Bars3Icon className="h-6 w-6  text-[#ffffff]" />
+                  <Bars3Icon className="h-6 w-6  " />
                 )}
               </button>
             </div>
@@ -116,7 +116,7 @@ const Navbar = () => {
 
         {/* Mobile navigation */}
         <div className="flex justify-center my-3 mx-10 ">
-          <div className={`lg:hidden   overflow-hidden flex items-center rounded-3xl flex-col gap-12 ${!isOpen ? "h-0 " : "h-fit   fixed z-40 w-full bg-[#000000d7] border-[#000000] border-[1px]  ease-in-out   origin-top  duration-300 backdrop-blur-md max-w-xl shadow-md shadow-[#4477bed2] "}`}>
+          <div className={`lg:hidden   overflow-hidden flex items-center rounded-3xl flex-col gap-12 ${!isOpen ? "h-0 " : "h-fit   fixed z-40 w-full bg-[#000000d7] border-[#000000] border-[1px]  ease-in-out   origin-top  duration-300 backdrop-blur-md max-w-xl shadow-md shadow-[#000000d2] "}`}>
             <div className="px-8 overflow-hidden">
               <div className="flex flex-col py-2 items-center font-bold tracking-wider">
                 <a href="/" className="w-full h-full flex items-center justify-center my-1 px-10 py-2 rounded-full hover:bg-red-600 text-white hover:text-slate-100 duration-300">Home</a>
@@ -129,7 +129,7 @@ const Navbar = () => {
         </div>
       </nav>
 
-      <button id="topButton" className="topbutton fixed z-50 bottom-5 right-5">
+      <button id="topButton" className="topbutton fixed z-50 bottom-5 right-6">
         <svg className="svgIcon" viewBox="0 0 384 512">
           <path
             d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
