@@ -59,11 +59,11 @@ const Navbar = () => {
   return (
     <>
     <div className='pointer-events-none'>
-      {/* <img className=' animated-image top-0 z-50 fixed left-[1vw] w-[12vw] max-w-40 min-w-20' src="src\assets\image\(1).png" alt="" />
-      <img className=' animated-image top-[2vh] z-50 fixed right-[10vw]  w-[12vw] max-w-40 min-w-20' src="src\assets\image\(2).png" alt="" />
-      <img className=' animated-image top-[20vw] z-50 fixed right-[3vw]  w-[12vw] max-w-40 min-w-20' src="src\assets\image\(3).png" alt="" />
-      <img className=' animated-image top-[30vw] z-50 fixed right-[10vw]  w-[12vw] max-w-40 min-w-20' src="src\assets\image\(4).png" alt="" />
-      <img className=' animated-image top-[30vw] z-50 fixed left-[1vw] w-[12vw] max-w-40 min-w-20' src="src\assets\image\(5).png" alt="" /> */}
+      {/* <img className=' animated-image top-0 z-50 fixed left-[1vw] w-[12vw] max-w-40 min-w-20' src="src/assets/image/(1).png" alt="" />
+      <img className=' animated-image top-[2vh] z-50 fixed right-[10vw]  w-[12vw] max-w-40 min-w-20' src="src/assets/image/(2).png" alt="" />
+      <img className=' animated-image top-[20vw] z-50 fixed right-[3vw]  w-[12vw] max-w-40 min-w-20' src="src/assets/image/(3).png" alt="" />
+      <img className=' animated-image top-[30vw] z-50 fixed right-[10vw]  w-[12vw] max-w-40 min-w-20' src="src/assets/image/(4).png" alt="" />
+      <img className=' animated-image top-[30vw] z-50 fixed left-[1vw] w-[12vw] max-w-40 min-w-20' src="src/assets/image/(5).png" alt="" /> */}
       </div>
       <nav className="fixed  top-0 left-0 w-full z-50 py-3">
 
