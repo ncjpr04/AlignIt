@@ -7,6 +7,7 @@ import {
   Bars3Icon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
+import { gsap } from "gsap";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,10 +38,36 @@ const Navbar = () => {
     };
   }, []);
 
+  useEffect(() => {
+    // Create an animation for the h1 element inside the #page2 div
+    const animation = gsap.from(" .animated-image", {
+      y: 100,  // Move the h1 element to the left by 100% of its width
+      duration: 1,
+      // repeat: -1,
+      // yoyo: true,
+      scrub:1,
+      ease:"linear"
+    });
+
+    // Cleanup function to kill the animation and its scroll trigger when the component unmounts
+    return () => {
+      animation.kill();
+    };
+  }, []);
+
+
   return (
     <>
-      <nav className="fixed top-0 left-0 w-full z-50 py-3">
-        <div className="max-w-2xl bg-white/75 backdrop-blur-md rounded-full lg:hover:shadow-md mx-auto flex justify-between w-5/6 px-10 py-3 border-2 border-white">
+    <div className='pointer-events-none'>
+      {/* <img className=' animated-image top-0 z-50 fixed left-[1vw] w-[12vw] max-w-40 min-w-20' src="src\assets\image\(1).png" alt="" />
+      <img className=' animated-image top-[2vh] z-50 fixed right-[10vw]  w-[12vw] max-w-40 min-w-20' src="src\assets\image\(2).png" alt="" />
+      <img className=' animated-image top-[20vw] z-50 fixed right-[3vw]  w-[12vw] max-w-40 min-w-20' src="src\assets\image\(3).png" alt="" />
+      <img className=' animated-image top-[30vw] z-50 fixed right-[10vw]  w-[12vw] max-w-40 min-w-20' src="src\assets\image\(4).png" alt="" />
+      <img className=' animated-image top-[30vw] z-50 fixed left-[1vw] w-[12vw] max-w-40 min-w-20' src="src\assets\image\(5).png" alt="" /> */}
+      </div>
+      <nav className="fixed  top-0 left-0 w-full z-50 py-3">
+
+        <div className="max-w-2xl duration-300 ease-in-out bg-[#000000d7] border-[#000000] border-[1px]  backdrop-blur-sm rounded-full lg:hover:shadow-md mx-auto flex justify-between w-5/6 px-10 py-3 ">
           {/* Logo and primary menu */}
           <div className="flex items-center gap-16">
             {/* Logo */}
@@ -53,25 +80,25 @@ const Navbar = () => {
               </a>
             </div>
             {/* Primary menu */}
-            <div className="hidden lg:flex gap-8">
-              <a href="/" className="flex items-center justify-center rounded-full py-1 px-3 hover:bg-primary hover:text-slate-100">Home</a>
-              <a href="/Games" className="flex items-center justify-center rounded-full py-1 px-3 hover:bg-primary hover:text-slate-100">Games</a>
-              <a href="/Reviews" className="flex items-center justify-center rounded-full py-1 px-3 hover:bg-primary hover:text-slate-100">Reviews</a>
-              <a href="/contact" className="flex items-center justify-center rounded-full py-1 px-3 hover:bg-primary hover:text-slate-100">Contact Us</a>
+            <div className="hidden lg:flex gap-8 text-[#fffdfd] font-extrabold">
+              <a href="/" className="flex items-center justify-center rounded-full py-1 px-3   hover:text-slate-100 hover:bg-red-600 duration-300">Home</a>
+              <a href="/Games" className="flex items-center justify-center rounded-full py-1 px-3  hover:text-slate-100 hover:bg-red-600 duration-300">Games</a>
+              <a href="/Reviews" className="flex items-center justify-center rounded-full py-1 px-3  hover:text-slate-100 hover:bg-red-600 duration-300">Reviews</a>
+              <a href="/contact" className="flex items-center justify-center rounded-full py-1 px-3  hover:text-slate-100 hover:bg-red-600 duration-300">Contact Us</a>
             </div>
           </div>
 
           {/* Secondary menu */}
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-6  ">
             {/* Mobile navigation toggle */}
-            <div className="lg:hidden flex items-center">
+            <div className="lg:hidden flex items-center ">
               <button onClick={toggleMenu}>
                 {isOpen ? (
                   <button
-                    className="relative border-2 group hover:border-green-500 w-6 h-6 duration-500 overflow-hidden"
+                    className="relative border-2 group hover:border-green-500 w-6 h-6 duration-500 ease-in-out overflow-hidden"
                     type="button"
                   >
-                    <p className="font-Manrope text-3xl h-full w-full flex items-center justify-center text-black duration-500 relative z-10 group-hover:scale-0">
+                    <p className="font-Manrope text-3xl h-full w-full flex items-center justify-center border text-white duration-500 relative z-10 group-hover:scale-0">
                       ×
                     </p>
                     <span className="absolute w-full h-full bg-blue-500 rotate-45 group-hover:top-4 duration-500 top-12 left-0"></span>
@@ -80,7 +107,7 @@ const Navbar = () => {
                     <span className="absolute w-full h-full bg-blue-500 rotate-45 group-hover:bottom-4 duration-500 bottom-12 right-0"></span>
                   </button>
                 ) : (
-                  <Bars3Icon className="h-6 w-6" />
+                  <Bars3Icon className="h-6 w-6  text-[#ffffff]" />
                 )}
               </button>
             </div>
@@ -88,14 +115,14 @@ const Navbar = () => {
         </div>
 
         {/* Mobile navigation */}
-        <div className="flex justify-center my-3 mx-10">
-          <div className={`fixed z-40 w-full rounded-3xl bg-white/75 backdrop-blur-md max-w-xl shadow-md overflow-hidden flex items-center flex-col lg:hidden gap-12 origin-left duration-700 ${!isOpen ? "h-0" : "h-fit"}`}>
+        <div className="flex justify-center my-3 mx-10 ">
+          <div className={`lg:hidden   overflow-hidden flex items-center rounded-3xl flex-col gap-12 ${!isOpen ? "h-0 " : "h-fit   fixed z-40 w-full bg-[#000000d7] border-[#000000] border-[1px]  ease-in-out   origin-top  duration-300 backdrop-blur-md max-w-xl shadow-md shadow-[#4477bed2] "}`}>
             <div className="px-8 overflow-hidden">
               <div className="flex flex-col py-2 items-center font-bold tracking-wider">
-                <a href="/" className="w-full h-full flex items-center justify-center my-1 px-10 py-2 rounded-full hover:bg-primary hover:text-slate-100">Home</a>
-                <a href="/about" className="w-full h-full flex items-center justify-center my-1 px-10 py-2 rounded-full hover:bg-primary hover:text-slate-100">Games</a>
-                <a href="/classes" className="w-full h-full flex items-center justify-center my-1 px-10 py-2 rounded-full hover:bg-primary hover:text-slate-100">Reviews</a>
-                <a href="/contact" className="w-full h-full flex items-center justify-center my-1 px-10 py-2 rounded-full hover:bg-primary hover:text-slate-100">Contact Us</a>
+                <a href="/" className="w-full h-full flex items-center justify-center my-1 px-10 py-2 rounded-full hover:bg-red-600 text-white hover:text-slate-100 duration-300">Home</a>
+                <a href="/about" className="w-full h-full flex items-center justify-center my-1 px-10 py-2 rounded-full hover:bg-red-600 text-white hover:text-slate-100 duration-300">Games</a>
+                <a href="/classes" className="w-full h-full flex items-center justify-center my-1 px-10 py-2 rounded-full hover:bg-red-600 text-white hover:text-slate-100 duration-300">Reviews</a>
+                <a href="/contact" className="w-full h-full flex items-center justify-center my-1 px-10 py-2 rounded-full hover:bg-red-600 text-white hover:text-slate-100 duration-300">Contact Us</a>
               </div>
             </div>
           </div>

@@ -15,20 +15,29 @@ export const useTextAnimation = () => {
                 const splitedUpperText = upperText.split(" "); // Split into individual words
                 let clutter = "";
                 splitedUpperText.forEach(function (elem) {
+
                     clutter += `<span>${elem} </span>`; // Add a space after each word
                 });
                 upperTextElement.innerHTML = clutter;
             }
-            if (mainTextElements.length > 0) {
-                const mainTextElement = mainTextElements[0];
-                const mainText = mainTextElement.textContent;
-                const splitedmainText = mainText.split(" "); // Split into individual words
-                let mainclutter = "";
-                splitedmainText.forEach(function (mainelem) {
-                    mainclutter += `<span>${mainelem} </span>`; // Add a space after each word
-                });
-                mainTextElement.innerHTML = mainclutter;
-            }
+           if (mainTextElements.length > 0) {
+    const mainTextElement = mainTextElements[0];
+    const mainText = mainTextElement.textContent;
+    const splitedmainText = mainText.split(" "); // Split into individual words
+    let mainclutter = "";
+    splitedmainText.forEach(function (mainelem, index) {
+        if (index === 2 ) { // Change index to 3 and 4 for 4th and 5th elements
+            mainclutter += `<span style="color: #bd2b39;">${mainelem} </span>`; // Apply your desired color
+        }
+        else if (index === 4 || index==5) { // Change index to 3 and 4 for 4th and 5th elements
+            mainclutter += `<span style="color: #1f79bc;">${mainelem} </span>`; // Apply your desired color
+        } else {
+            mainclutter += `<span>${mainelem} </span>`;
+        }
+    });
+    mainTextElement.innerHTML = mainclutter;
+}
+
             if (lowerTextElements.length > 0) {
                 const lowerTextElement = lowerTextElements[0];
                 const lowerText = lowerTextElement.textContent;
@@ -66,5 +75,7 @@ export const useTextAnimation = () => {
             opacity: 0,
             stagger: 0.3
         });
+        
     }, []);
+
 };

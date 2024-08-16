@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 *{
-  
+  transition: all;
   font-family: "Poppins", sans-serif;
 }
 /* Width of the scrollbar */
@@ -80,7 +80,7 @@ Dark theme
     font-weight: 400;
     font-style: normal;
   }
-  
+  :hover
   .poppins-medium {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -165,6 +165,137 @@ Dark theme
     font-style: italic;
   }
 
+  /* styles.css */
+.animation-text {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@keyframes slide-left {
+  0% {
+      transform: translateX(150%);
+  }
+  100% {
+      transform: translateX(-150%);
+  }
+}
+
+@keyframes slide-right {
+  0% {
+      transform: translateX(-150%);
+  }
+  100% {
+      transform: translateX(150%);
+  }
+}
+
+  /* @keyframes marque {
+    0% {
+      transform: translateX(150%);
+      /* rotate: -5deg; */
+  /* } */
+  
+  /* 100% { */
+      /* transform: translateX(-150%); */
+      /* rotate: 5deg; */
+  /* } */
+  /* } */
+  
+  /* .animation-text { */
+    /* display: inline-block; */
+    /* animation-delay: 2s; */
+    /* animation: marque 10s linear infinite ; */
+  /* } */ 
+ /* marquee */
+  .marque {
+    position: relative;
+    padding: 30px 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    overflow: hidden;
+  }
+  
+  .marque_inner {
+    display: flex;
+    flex:auto;
+    flex-direction: row;
+    width: fit-content;
+  }
+  
+  .marque_part {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    transition: all;
+    padding: 0 4px;
+  }
+  .arrow {
+    width: 60px;
+    height: 80px;
+    margin: 0 1em;
+    transition: all 0.5s cubic-bezier(0.75, 0.82, 0.165, 1);
+    /* transform: rotate(180deg); */
+}
+
+
+
+.wrapper{
+  width:450px;
+  height:50px;
+  position:relative;
+  margin:auto;
+  background:#ccc;
+  overflow:hidden;
+}
+
+.wrapper::after {
+  width:448px;
+  height:48px;
+  content:"";
+  position:absolute;
+  border:solid 1px white;
+}
+
+.box{
+  width:50px;
+  height:50px;
+  position:absolute;
+  background:red;
+  font-size:25px;
+  line-height:50px;
+  text-align:center;
+  color: var(--color-just-black);
+  
+}
+
+
+
+.boxes {
+  position:relative;
+  left:-50px;
+}
+
+.nav {
+  position:relative;
+  text-align:center;
+ 
+  color:white;
+  font-size:20px;
+  margin:20px 0;
+}
+
+/* .bg-voilet\/50 {
+  background-color: rgb(94, 0, 125);
+}  */
+  
+body{
+ /* background-image: linear-gradient(to right, #2f1e50, #a67aff, #2f1e50) ; */
+background-color: #ffffff;
+} 
+
+
   body{
-    @apply bg-neutral-950 font-poppins;
+    @apply  font-poppins;
   }
