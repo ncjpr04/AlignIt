@@ -69,10 +69,10 @@ function ScrollMarque() {
                 <div id="left1" className=" h-1/3 gap-5 flex justify-center">
                     <a href="#" className='h-full max-w-[30%] lg:min-w-[40%] min-w-[500px]'>
                         <div className='h-full flex gap-2 items-center p-2 rounded-3xl  w-full bg-[#ddf4ffc7] border-[#00aeff] border-[1px] shadow-lg shadow-[#6898db]  cursor-pointer'>
-                            <img src="src/assets/image/ludo.webp" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
+                            <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/ludo.webp" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
                             <div className="left w-full p-1 h-full rounded-2xl shadow-md shadow-[#6898db] bg-white border-[#000000] border-[1px] items-center flex flex-col gap-1 justify-around">
                                 <div className="profile w-full h-16  flex   justify-center  md:mt-2 gap-1 px-2 ">
-                                    <img src="src/assets/image/ludo.webp" alt="" className='profile w-14 h-14 hidden md:flex   rounded-xl' />
+                                    <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/ludo.webp" alt="" className='profile w-14 h-14 hidden md:flex   rounded-xl' />
                                     <h3 className="info  w-full h-14  rounded-xl  flex items-center px-2 text-lg font-semibold text-black justify-between">
                                     Divyanshu Yadav
                                         <div className="stars h-10 w-1/2  flex justify-center items-center gap-1">
@@ -94,7 +94,7 @@ function ScrollMarque() {
                     </a>   
                     <a href="#" className='h-full max-w-[30%] lg:min-w-[40%] min-w-[500px]'>
                         <div className='h-full flex gap-2 items-center p-2 rounded-3xl  w-full bg-[#ddf4ffc7] border-[#00aeff] border-[1px] shadow-lg shadow-[#6898db]  cursor-pointer'>
-                            <img src="src/assets/image/solo.webp" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
+                            <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/solo.webp" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
                             <div className="left w-full p-1 h-full rounded-2xl shadow-md shadow-[#6898db] bg-white border-[#000000] border-[1px] items-center flex flex-col gap-1 justify-around">
                                 <div className="profile w-full h-16  flex  justify-center  md:mt-2 gap-1 px-2 ">
                                     <img src="https://play-lh.googleusercontent.com/a-/ALV-UjVCFTDcEntfy4W6tIA2Z6VsvkC4b_HKgCqpcXo8Iy8TZNIi_uGo=s32-rw" alt="" className='profile w-14 h-14 hidden md:flex   rounded-xl' />
@@ -119,10 +119,10 @@ function ScrollMarque() {
                     </a>
                     <a href="#" className='h-full max-w-[30%] lg:min-w-[40%] min-w-[500px]'>
                         <div className='h-full flex gap-2 items-center p-2 rounded-3xl  w-full bg-[#ddf4ffc7] border-[#00aeff] border-[1px] shadow-lg shadow-[#6898db]  cursor-pointer'>
-                            <img src="src/assets/image/ludo.webp" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
+                            <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/ludo.webp" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
                             <div className="left w-full p-1 h-full rounded-2xl shadow-md shadow-[#6898db] bg-white border-[#000000] border-[1px] items-center flex flex-col justify-around">
                                 <div className="profile w-full h-16  flex   justify-center  md:mt-2 gap-1 px-2 ">
-                                    <img src="src/assets/image/Nitin.png" alt="" className='profile  w-14 h-14 hidden md:flex  bg-[#ddf4ffc7] rounded-xl' />
+                                    <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/Nitin.png" alt="" className='profile  w-14 h-14 hidden md:flex  bg-[#ddf4ffc7] rounded-xl' />
                                     <h3 className="info  w-full h-14  rounded-xl  flex items-center  text-lg font-semibold text-black justify-between">
                                         Nitin Choudhary
                                         <div className="stars h-10 w-1/2  flex justify-center items-center gap-1">
@@ -144,7 +144,7 @@ function ScrollMarque() {
                     </a>
                     <a href="#" className='hidden md:block h-full max-w-[30%] min-w-[40%] md:min-w-[500px]'>
                         <div className='h-full flex gap-2 items-center p-2 rounded-3xl  w-full bg-[#ddf4ffc7] border-[#00aeff] border-[1px] shadow-lg shadow-[#6898db]  cursor-pointer'>
-                            <img src="src/assets/image/watersort.webp" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
+                            <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/watersort.webp" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
                             <div className="left w-full p-1 h-full rounded-2xl shadow-md shadow-[#6898db] bg-white border-[#000000] border-[1px] items-center flex flex-col gap-1 justify-around">
                                 <div className="profile w-full h-16  flex   justify-center  md:mt-2 gap-1 px-2 ">
                                     <img src="https://play-lh.googleusercontent.com/a-/ALV-UjVmIq0p782F-okO9Gv6oo6qNFQWSZALB5o1bjvwtNiD04ItABqC=s32-rw" alt="" className='profile w-14 h-14 hidden md:flex   rounded-xl' />
@@ -171,7 +171,7 @@ function ScrollMarque() {
                 <div id="right" className=" h-1/3  gap-5 justify-center flex ">
                     <a href="#" className='h-full max-w-[30%] lg:min-w-[40%] min-w-[500px]'>
                         <div className='h-full flex gap-2 items-center p-2 rounded-3xl  w-full bg-[#ddf4ffc7] border-[#00aeff] border-[1px] shadow-lg shadow-[#6898db]  cursor-pointer'>
-                            <img src="src/assets/image/unlockcar.webp" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
+                            <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/unlockcar.webp" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
                             <div className="left w-full p-1 h-full rounded-2xl shadow-md shadow-[#6898db] bg-white border-[#000000] border-[1px] items-center flex flex-col gap-1 justify-around">
                                 <div className="profile w-full h-16  flex   justify-center  md:mt-2 gap-1 px-2 ">
                                     <img src="https://play-lh.googleusercontent.com/a-/ALV-UjV9wnsZrUq0_a3VwKgnZyc9qqH_7GH8g3qruFeTVDDjhjnHA7fA=s32-rw" alt="" className='profile w-14 h-14 hidden md:flex   rounded-xl' />
@@ -196,7 +196,7 @@ function ScrollMarque() {
                     </a>
                     <a href="#" className='h-full max-w-[30%] lg:min-w-[40%] min-w-[500px]'>
                         <div className='h-full flex gap-2 items-center p-2 rounded-3xl  w-full bg-[#ddf4ffc7] border-[#00aeff] border-[1px] shadow-lg shadow-[#6898db]  cursor-pointer'>
-                            <img src="src/assets/image/tictactoe.webp" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
+                            <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/tictactoe.webp" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
                             <div className="left w-full p-1 h-full rounded-2xl shadow-md shadow-[#6898db] bg-white border-[#000000] border-[1px] items-center flex flex-col gap-1 justify-around">
                                 <div className="profile w-full h-16  flex   justify-center  md:mt-2 gap-1 px-2 ">
                                     <img src="https://play-lh.googleusercontent.com/a-/ALV-UjXcLUQ0zGwW7wW7yp5kcfXWiAk-a4pmpcz24sWvW6XCYSBALwmU=s32-rw" alt="" className='profile w-14 h-14 hidden md:flex   rounded-xl' />
@@ -221,7 +221,7 @@ function ScrollMarque() {
                     </a>
                     <a href="#" className='h-full max-w-[30%] lg:min-w-[40%] min-w-[500px]'>
                         <div className='h-full flex gap-2 items-center p-2 rounded-3xl  w-full bg-[#ddf4ffc7] border-[#00aeff] border-[1px] shadow-lg shadow-[#6898db]  cursor-pointer'>
-                            <img src="src/assets/image/threemanmorris.webp" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
+                            <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/threemanmorris.webp" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
                             <div className="left w-full p-1 h-full rounded-2xl shadow-md shadow-[#6898db] bg-white border-[#000000] border-[1px] items-center flex flex-col gap-1 justify-around">
                                 <div className="profile w-full h-16  flex   justify-center  md:mt-2 gap-1 px-2 ">
                                     <img src="https://play-lh.googleusercontent.com/a-/ALV-UjXkxFCjkCi1FioCJ5zmMPCmYS-pzUqGr9puGxxC-VOYuu8wjEtfbA=s32-rw" alt="" className='profile w-14 h-14 hidden md:flex   rounded-xl' />
@@ -246,7 +246,7 @@ function ScrollMarque() {
                     </a>
                     <a href="#" className='h-full max-w-[30%] lg:min-w-[40%] min-w-[500px]'>
                         <div className='h-full flex gap-2 items-center p-2 rounded-3xl  w-full bg-[#ddf4ffc7] border-[#00aeff] border-[1px] shadow-lg shadow-[#6898db]  cursor-pointer'>
-                            <img src="src/assets/image/sudoku.webp" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
+                            <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/sudoku.webp" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
                             <div className="left w-full p-1 h-full rounded-2xl shadow-md shadow-[#6898db] bg-white border-[#000000] border-[1px] items-center flex flex-col gap-1 justify-around">
                                 <div className="profile w-full h-16  flex   justify-center  md:mt-2 gap-1 px-2 ">
                                     <img src="https://play-lh.googleusercontent.com/a-/ALV-UjWiKt8ih1_1MIuUuAq2M1F-CnQNh_j9CvgG1AEx1LBWmschQow=s32-rw" alt="" className='profile w-14 h-14 hidden md:flex   rounded-xl' />
@@ -273,7 +273,7 @@ function ScrollMarque() {
                 <div id="left2" className="h-1/3 gap-5 justify-center flex ">
                     <a href="#" className='h-full max-w-[30%] lg:min-w-[40%] min-w-[500px]'>
                         <div className='h-full flex gap-2 items-center p-2 rounded-3xl  w-full bg-[#ddf4ffc7] border-[#00aeff] border-[1px] shadow-lg shadow-[#6898db]  cursor-pointer'>
-                            <img src="src/assets/image/mancala.webp" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
+                            <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/mancala.webp" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
                             <div className="left w-full p-1 h-full rounded-2xl shadow-md shadow-[#6898db] bg-white border-[#000000] border-[1px] items-center flex flex-col gap-1 justify-around">
                                 <div className="profile w-full h-16  flex   justify-center  md:mt-2 gap-1 px-2 ">
                                     <img src="https://play-lh.googleusercontent.com/a-/ALV-UjUwvwxw0PMCZGg97si3_iE3lISjBqq3lB5jP4lJZLwpr7NSyP8f=s32-rw" alt="" className='profile w-14 h-14 hidden md:flex   rounded-xl' />
@@ -298,7 +298,7 @@ function ScrollMarque() {
                     </a>
                     <a href="#" className='h-full max-w-[30%] lg:min-w-[40%] min-w-[500px]'>
                         <div className='h-full flex gap-2 items-center p-2 rounded-3xl  w-full bg-[#ddf4ffc7] border-[#00aeff] border-[1px] shadow-lg shadow-[#6898db]  cursor-pointer'>
-                            <img src="src/assets/image/shataranj.webp" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
+                            <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/shataranj.webp" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
                             <div className="left w-full p-1 h-full rounded-2xl shadow-md shadow-[#6898db] bg-white border-[#000000] border-[1px] items-center flex flex-col gap-1 justify-around">
                                 <div className="profile w-full h-16  flex   justify-center  md:mt-2 gap-1 px-2 ">
                                     <img src="https://play-lh.googleusercontent.com/a-/ALV-UjWC1QMKsIxBXPFYLCW6IPuyWBQekaR3pHCSxRbr1lCwK_qUcg=s32-rw" alt="" className='profile w-14 h-14 hidden md:flex   rounded-xl' />
@@ -323,7 +323,7 @@ function ScrollMarque() {
                     </a>
                     <a href="#" className='h-full max-w-[30%] lg:min-w-[40%] min-w-[500px]'>
                         <div className='h-full flex gap-2 items-center p-2 rounded-3xl  w-full bg-[#ddf4ffc7] border-[#00aeff] border-[1px] shadow-lg shadow-[#6898db]  cursor-pointer'>
-                            <img src="src/assets/image/dominoes.webp" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
+                            <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/dominoes.webp" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
                             <div className="left w-full p-1 h-full rounded-2xl shadow-md shadow-[#6898db] bg-white border-[#000000] border-[1px] items-center flex flex-col gap-1 justify-around">
                                 <div className="profile w-full h-16  flex   justify-center  md:mt-2 gap-1 px-2 ">
                                     <img src="https://play-lh.googleusercontent.com/a-/ALV-UjUpgp2AxbZ9dBFKSaCjzoNGdv-KMn4-K5PyCimjIOfheIxS6g-y=s32-rw" alt="" className='profile w-14 h-14 hidden md:flex   rounded-xl' />
@@ -348,7 +348,7 @@ function ScrollMarque() {
                     </a>
                     <a href="#" className='h-full max-w-[30%] lg:min-w-[40%] min-w-[500px]'>
                         <div className='h-full flex gap-2 items-center p-2 rounded-3xl  w-full bg-[#ddf4ffc7] border-[#00aeff] border-[1px] shadow-lg shadow-[#6898db]  cursor-pointer'>
-                            <img src="src/assets/image/checkers.webp" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
+                            <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/checkers.webp" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
                             <div className="left w-full p-1 h-full rounded-2xl shadow-md shadow-[#6898db] bg-white border-[#000000] border-[1px] items-center flex flex-col gap-1 justify-around">
                                 <div className="profile w-full h-16  flex   justify-center  md:mt-2 gap-1 px-2 ">
                                     <img src="https://play-lh.googleusercontent.com/a-/ALV-UjX8rWNhfEI09TUii8UXwpYFBLVXJFPlIG9oTtVcIyFQDH3gm7k=s32-rw" alt="" className='profile w-14 h-14 hidden md:flex   rounded-xl' />

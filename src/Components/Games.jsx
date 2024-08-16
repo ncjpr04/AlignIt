@@ -35,11 +35,11 @@ const Games = () => {
     <div className="slider w-full h-full overflow-hidden" ref={sliderRef}>
       <div className="list flex">
         {[
-          { src: "src/assets/image/img5.jpg", title: "Game 1", type: "Sub heading 1", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut." },
-          { src: "src/assets/image/img2.jpg", title: "Game 2", type: "Sub heading 2", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut." },
-          { src: "src/assets/image/img1.jpg", title: "Game 1", type: "Sub heading 1", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut." },
-          { src: "src/assets/image/img4.jpg", title: "Game 3", type: "Sub heading 3", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut." },
-          { src: "src/assets/image/img3.jpg", title: "Game 4", type: "Sub heading 4", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut." },
+          { src: "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/img5.jpg", title: "Game 1", type: "Sub heading 1", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut." },
+          { src: "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/img2.jpg", title: "Game 2", type: "Sub heading 2", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut." },
+          { src: "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/img1.jpg", title: "Game 1", type: "Sub heading 1", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut." },
+          { src: "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/img4.jpg", title: "Game 3", type: "Sub heading 3", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut." },
+          { src: "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/img3.jpg", title: "Game 4", type: "Sub heading 4", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut." },
           
         ].map((item, index) => (
           <div className="item flex-shrink-0" key={index}>
@@ -58,7 +58,7 @@ const Games = () => {
         ))}
       </div>
       <div className="thumbnail ">
-        {["src/assets/image/ludo.webp",  "src/assets/image/solo.webp","src/assets/image/tictactoe.webp","src/assets/image/shataranj.webp", "src/assets/image/logo.jpg"].map((src, index) => (
+        {["https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/ludo.webp",  "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/solo.webp","https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/tictactoe.webp","https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/shataranj.webp", "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/logo.jpg"].map((src, index) => (
           <div className="item   " key={index}>
             <img src={src} alt="" className="w-full h-full  object-cover" />
           </div>

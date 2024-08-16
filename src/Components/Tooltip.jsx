@@ -35,42 +35,42 @@ const TestimonialTooltip = () => {
             name: "Rajiv Choudhary",
             designation: "Android Developer",
             image:
-                "src/assets/image/Rajiv Choudhary.jpeg",
+                "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/Rajiv Choudhary.jpeg",
         },
         {
             id: 2,
             name: "Vikas Choudhary",
             designation: "Product Manager",
             image:
-                "src/assets/image/Vikash Choudhary.jpeg",
+                "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/Vikash Choudhary.jpeg",
         },
         {
             id: 3,
             name: "Sunita Devanda",
             designation: "Marketing Manager",
             image:
-                "src/assets/image/sunita_devanda.jpeg",
+                "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/sunita_devanda.jpeg",
         },
         {
             id: 4,
             name: "Sanjay Yadav",
             designation: "Associate User Interface Designer",
             image:
-                "src/assets/image/sanjay_yadav.jpeg",
+                "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/sanjay_yadav.jpeg",
         },
         {
             id: 5,
             name: "Kiran Yadav",
             designation: "Human Resources Manager",
             image:
-                "src/assets/image/kiran Yadav.jpeg",
+                "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/kiran Yadav.jpeg",
         },
         {
             id: 6,
             name: "Raj Choudhary",
             designation: "CEO",
             image:
-                "src/assets/image/Raj Choudhary.jpeg",
+                "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/Raj Choudhary.jpeg",
         },
        
     ];
