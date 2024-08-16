@@ -58,7 +58,7 @@ const Marquee = () => {
                 <div className="marque_part flex-none text-black hover:text-[#bf2b39]" >
                     <img
                         className={`arrow ${isScrollingDown ? 'rotate-180' : 'rotate-0'}`}
-                        src="/src/assets/arrow.svg"
+                        src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/arrow.svg"
                         alt="arrow"
                     />
                     Play. Discover. Conquer. Repeat.
