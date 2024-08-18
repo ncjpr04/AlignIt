@@ -35,42 +35,42 @@ const TestimonialTooltip = () => {
             name: "Rajiv Choudhary",
             designation: "Android Developer",
             image:
-                "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/Rajiv Choudhary.jpeg",
+                "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/Rajiv Choudhary.avif",
         },
         {
             id: 2,
             name: "Vikas Choudhary",
             designation: "Product Manager",
             image:
-                "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/Vikash Choudhary.jpeg",
+                "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/Vikash Choudhary.avif",
         },
         {
             id: 3,
             name: "Sunita Devanda",
             designation: "Marketing Manager",
             image:
-                "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/sunita_devanda.jpeg",
+                "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/sunita_devanda.avif",
         },
         {
             id: 4,
             name: "Sanjay Yadav",
             designation: "Associate User Interface Designer",
             image:
-                "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/sanjay_yadav.jpeg",
+                "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/sanjay_yadav.avif",
         },
         {
             id: 5,
             name: "Kiran Yadav",
             designation: "Human Resources Manager",
             image:
-                "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/kiran Yadav.jpeg",
+                "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/kiran Yadav.avif",
         },
         {
             id: 6,
             name: "Raj Choudhary",
             designation: "CEO",
             image:
-                "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/Raj Choudhary.jpeg",
+                "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/Raj Choudhary.avif",
         },
        
     ];

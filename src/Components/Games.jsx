@@ -58,7 +58,7 @@ const Games = () => {
         ))}
       </div>
       <div className="thumbnail ">
-        {["https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/ludo.webp",  "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/solo.webp","https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/tictactoe.webp","https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/shataranj.webp", "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/logo.jpg"].map((src, index) => (
+        {["https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/ludo.avif",  "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/solo.avif","https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/tictactoe.avif","https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/shataranj.avif", "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/logo.avif"].map((src, index) => (
           <div className="item   " key={index}>
             <img src={src} alt="" className="w-full h-full  object-cover" />
           </div>
