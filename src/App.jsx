@@ -13,10 +13,7 @@ function App() {
 
       <Navbar />
       <Home />
-
-      {/* <div className='lg:block hidden'> */}
-        <ScrollMarque />
-      {/* </div> */}
+      <ScrollMarque />
       <Contact />
       <Marquee />
       <Footer />
