@@ -122,7 +122,7 @@ function ScrollMarque() {
                             <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/ludo.avif" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
                             <div className="left w-full p-1 h-full rounded-2xl shadow-md shadow-[#6898db] bg-white border-[#000000] border-[1px] items-center flex flex-col justify-around">
                                 <div className="profile w-full h-16  flex   justify-center  md:mt-2 gap-1 px-2 ">
-                                    <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/Nitin.png" alt="" className='profile  w-14 h-14 hidden md:flex  bg-[#ddf4ffc7] rounded-xl' />
+                                    <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/Nitin.avif" alt="" className='profile  w-14 h-14 hidden md:flex  bg-[#ddf4ffc7] rounded-xl' />
                                     <h3 className="info  w-full h-14  rounded-xl  flex items-center  text-lg font-semibold text-black justify-between">
                                         Nitin Choudhary
                                         <div className="stars h-10 w-1/2  flex justify-center items-center gap-1">
