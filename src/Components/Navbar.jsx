@@ -59,11 +59,11 @@ const Navbar = () => {
   return (
     <>
     <div className='pointer-events-none'>
-      {/* <img className=' animated-image top-0 z-50 fixed left-[1vw] w-[12vw] max-w-40 min-w-20' src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/(1).png" alt="" />
-      <img className=' animated-image top-[2vh] z-50 fixed right-[10vw]  w-[12vw] max-w-40 min-w-20' src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/(2).png" alt="" />
-      <img className=' animated-image top-[20vw] z-50 fixed right-[3vw]  w-[12vw] max-w-40 min-w-20' src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/(3).png" alt="" />
-      <img className=' animated-image top-[30vw] z-50 fixed right-[10vw]  w-[12vw] max-w-40 min-w-20' src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/(4).png" alt="" />
-      <img className=' animated-image top-[30vw] z-50 fixed left-[1vw] w-[12vw] max-w-40 min-w-20' src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/(5).png" alt="" /> */}
+      {/* <img className=' animated-image top-0 z-50 fixed left-[1vw] w-[12vw] max-w-40 min-w-20' src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/(1).avif" alt="" />
+      <img className=' animated-image top-[2vh] z-50 fixed right-[10vw]  w-[12vw] max-w-40 min-w-20' src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/(2).avif" alt="" />
+      <img className=' animated-image top-[20vw] z-50 fixed right-[3vw]  w-[12vw] max-w-40 min-w-20' src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/(3).avif" alt="" />
+      <img className=' animated-image top-[30vw] z-50 fixed right-[10vw]  w-[12vw] max-w-40 min-w-20' src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/(4).avif" alt="" />
+      <img className=' animated-image top-[30vw] z-50 fixed left-[1vw] w-[12vw] max-w-40 min-w-20' src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/(5).avif" alt="" /> */}
       </div>
       <nav className="fixed  top-0 left-0 w-full z-50 py-3">
 
@@ -74,8 +74,8 @@ const Navbar = () => {
             <div>
               <a href="/" className="flex gap-1 font-bold text-gray-700 items-center">
                 <span className="h-7 text-primary flex justify-center items-center overflow-hidden">
-                  {/* <img src="https://github.com/ncjpr04/AlignIt/blob/main/src/assets/logo.png?raw=true" className="h-full w-auto" alt="Logo" /> */}
-                  <img src="https://github.com/ncjpr04/AlignIt/blob/main/src/assets/logo.png?raw=true" className="h-full w-auto" alt="Logo" />
+                  {/* <img src="https://github.com/ncjpr04/AlignIt/blob/main/src/assets/logo.avif?raw=true" className="h-full w-auto" alt="Logo" /> */}
+                  <img src="https://github.com/ncjpr04/AlignIt/blob/main/src/assets/logo.avif?raw=true" className="h-full w-auto" alt="Logo" />
                 </span>
               </a>
             </div>
