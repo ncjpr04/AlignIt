@@ -98,7 +98,7 @@ const Navbar = () => {
                     className="relative border-2 group hover:border-green-500 w-6 h-6 duration-500 ease-in-out overflow-hidden"
                     type="button"
                   >
-                    <p className="font-Manrope text-3xl h-full w-full flex items-center justify-center  text-white duration-500 relative z-10 group-hover:scale-0">
+                    <p className="font-Manrope text-3xl h-full w-full flex items-center justify-center border text-white duration-500 relative z-10 group-hover:scale-0">
                       ×
                     </p>
                     <span className="absolute w-full h-full bg-blue-500 rotate-45 group-hover:top-4 duration-500 top-12 left-0"></span>
@@ -107,7 +107,7 @@ const Navbar = () => {
                     <span className="absolute w-full h-full bg-blue-500 rotate-45 group-hover:bottom-4 duration-500 bottom-12 right-0"></span>
                   </button>
                 ) : (
-                  <Bars3Icon className="h-6 w-6  " />
+                  <Bars3Icon className="h-6 w-6  text-[#ffffff]" />
                 )}
               </button>
             </div>

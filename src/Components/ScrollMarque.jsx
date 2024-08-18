@@ -372,7 +372,7 @@ function ScrollMarque() {
                         </div>
                     </a>
                     <a href="https://play.google.com/store/apps/dev?id=6071653399714923628" target='blank' className='h-full  min-w-[10%]'>
-                        <div className='h-full flex gap-2 items-center p-2 rounded-3xl  w-full bg-[#000000c7] hover:bg-black border-[#000000] border-[1px] shadow-lg shadow-[#000000]  cursor-pointer'>
+                        <div className='h-full flex max-h-[200px] gap-2 items-center p-2 rounded-3xl  w-full bg-[#000000c7] hover:bg-black border-[#000000] border-[1px] shadow-lg shadow-[#000000]  cursor-pointer'>
                             <h3 className=' h-full  flex justify-center items-center text-[2rem] flex-wrap text-center font-bold text-white  w-full ' >
                                 Explore More !
                             </h3>

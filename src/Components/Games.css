@@ -60,7 +60,6 @@ body{
 }
 .slider .list .item .button button{
     border: none;
-    background-color: #eee;
     font-family: Poppins;
     font-weight: 500;
     cursor: pointer;

@@ -35,11 +35,11 @@ const Games = () => {
     <div className="slider w-full h-full overflow-hidden" ref={sliderRef}>
       <div className="list flex">
         {[
-          { src: "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/img5.jpg", title: "Game 1", type: "Sub heading 1", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut." },
-          { src: "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/img2.jpg", title: "Game 2", type: "Sub heading 2", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut." },
-          { src: "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/img1.jpg", title: "Game 1", type: "Sub heading 1", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut." },
-          { src: "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/img4.jpg", title: "Game 3", type: "Sub heading 3", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut." },
-          { src: "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/img3.jpg", title: "Game 4", type: "Sub heading 4", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut." },
+          { src: "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/img5.avif", title: "AlignIt", type: " Where Every Move Counts", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut." },
+          { src: "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/img2.avif", title: "Game 2", type: "Sub heading 2", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut." },
+          { src: "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/img1.avif", title: "Game 1", type: "Sub heading 1", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut." },
+          { src: "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/img4.avif", title: "Game 3", type: "Sub heading 3", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut." },
+          { src: "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/img3.avif", title: "Game 4", type: "Sub heading 4", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut." },
           
         ].map((item, index) => (
           <div className="item flex-shrink-0" key={index}>
@@ -50,9 +50,9 @@ const Games = () => {
               <div className="description mt-2 text-sm">
                 {item.description}
               </div>
-              {/* <div className="button mt-4">
+              <div className="button mt-4">
             <button className="bg-blue-500 text-white px-4 py-2 rounded">SEE MORE</button>
-          </div> */}
+          </div>
             </div>
           </div>
         ))}
