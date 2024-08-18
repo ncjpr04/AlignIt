@@ -8,64 +8,58 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 import { gsap } from "gsap";
-
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [showNavbar, setShowNavbar] = useState(true);
+  let lastScrollY = window.pageYOffset;
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
-  useEffect(() => {
-    const topButton = document.getElementById("topButton");
-    if (topButton) {
-      topButton.addEventListener("click", () => {
-        window.scrollTo({
-          top: 0,
-          behavior: "smooth"
-        });
-      });
+  const handleScroll = () => {
+    if (window.pageYOffset > lastScrollY) {
+      setShowNavbar(false);
+      setIsOpen(false);
+    } else {
+      setShowNavbar(true);
     }
+    lastScrollY = window.pageYOffset;
+  };
+
+  useEffect(() => {
+    // Scroll event listener
+    window.addEventListener('scroll', handleScroll);
+
+    // Top button scroll-to-top functionality
+    const topButton = document.getElementById("topButton");
+    const scrollToTop = () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+
+    if (topButton) {
+      topButton.addEventListener("click", scrollToTop);
+    }
+
+    // Cleanup event listeners
     return () => {
+      window.removeEventListener('scroll', handleScroll);
       if (topButton) {
-        topButton.removeEventListener("click", () => {
-          window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-          });
-        });
+        topButton.removeEventListener("click", scrollToTop);
       }
     };
   }, []);
 
-  useEffect(() => {
-    // Create an animation for the h1 element inside the #page2 div
-    const animation = gsap.from(" .animated-image", {
-      y: 100,  // Move the h1 element to the left by 100% of its width
-      duration: 1,
-      // repeat: -1,
-      // yoyo: true,
-      scrub:1,
-      ease:"linear"
-    });
-
-    // Cleanup function to kill the animation and its scroll trigger when the component unmounts
-    return () => {
-      animation.kill();
-    };
-  }, []);
-
-
   return (
     <>
-    <div className='pointer-events-none'>
-      {/* <img className=' animated-image top-0 z-50 fixed left-[1vw] w-[12vw] max-w-40 min-w-20' src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/(1).avif" alt="" />
-      <img className=' animated-image top-[2vh] z-50 fixed right-[10vw]  w-[12vw] max-w-40 min-w-20' src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/(2).avif" alt="" />
-      <img className=' animated-image top-[20vw] z-50 fixed right-[3vw]  w-[12vw] max-w-40 min-w-20' src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/(3).avif" alt="" />
-      <img className=' animated-image top-[30vw] z-50 fixed right-[10vw]  w-[12vw] max-w-40 min-w-20' src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/(4).avif" alt="" />
-      <img className=' animated-image top-[30vw] z-50 fixed left-[1vw] w-[12vw] max-w-40 min-w-20' src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/(5).avif" alt="" /> */}
-      </div>
-      <nav className="fixed  top-0 left-0 w-full z-50 py-3">
+     
+     <nav
+      className={`fixed top-0 left-0 w-full z-50 py-3 transition-all duration-300 ease-out-expo transform ${
+        showNavbar
+          ? 'translate-y-0  scale-100'
+          : '-translate-y-full scale-90'
+      }`}
+    >
 
         <div className="max-w-2xl duration-300 ease-in-out bg-[#000000d7] border-[#000000] border-[1px]  backdrop-blur-sm rounded-full lg:hover:shadow-md mx-auto flex justify-between w-5/6 px-10 py-3 ">
           {/* Logo and primary menu */}
@@ -75,7 +69,7 @@ const Navbar = () => {
               <a href="/" className="flex gap-1 font-bold text-gray-700 items-center">
                 <span className="h-7 text-primary flex justify-center items-center overflow-hidden">
                   {/* <img src="https://github.com/ncjpr04/AlignIt/blob/main/src/assets/logo.avif?raw=true" className="h-full w-auto" alt="Logo" /> */}
-                  <img src="https://github.com/ncjpr04/AlignIt/blob/main/src/assets/logo.avif?raw=true" className="h-full w-auto" alt="Logo" />
+                  <img src="https://github.com/ncjpr04/AlignIt/blob/main/src/assets/image/logo.avif?raw=true" className=" w-16" alt="Logo" />
                 </span>
               </a>
             </div>
@@ -129,7 +123,12 @@ const Navbar = () => {
         </div>
       </nav>
 
-      <button id="topButton" className="topbutton fixed z-50 bottom-5 right-6">
+      <button id="topButton" className={`topbutton fixed z-50 bottom-2 right-2  transition-all duration-300 ease-out-expo transform
+     ${
+      showNavbar
+        ? '-translate-y-0  scale-100'
+        : 'translate-y-20 scale-75'
+    }`}>
         <svg className="svgIcon" viewBox="0 0 384 512">
           <path
             d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"

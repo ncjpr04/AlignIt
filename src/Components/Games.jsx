@@ -35,12 +35,12 @@ const Games = () => {
     <div className="slider w-full h-full overflow-hidden" ref={sliderRef}>
       <div className="list flex">
         {[
-          { src: "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/img5.avif", title: "AlignIt", type: " Where Every Move Counts", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut." },
-          { src: "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/img2.avif", title: "Game 2", type: "Sub heading 2", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut." },
-          { src: "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/img1.avif", title: "Game 1", type: "Sub heading 1", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut." },
-          { src: "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/img4.avif", title: "Game 3", type: "Sub heading 3", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut." },
-          { src: "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/img3.avif", title: "Game 4", type: "Sub heading 4", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut." },
-          
+          { src: "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/img5.avif", title: "AlignIt", type: " Where Every Move Counts", description: "Building board games that dignify the interest of players and continuously improving the gaming experience, making games a part of life.", link: "" },
+          { src: "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/img2.avif", title: "Ludo Offline", type: "No waiting to Roll Dice!", description: "Where friendships are tested, grudges are born, and that one red piece just won't move! Roll the dice, dodge your friend's sneaky moves, and hope the universe is on your side", link: "https://play.google.com/store/apps/details?id=com.alignit.ludo" },
+          { src: "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/img1.avif", title: "Bead 16 - Sholo Guti, Bead 12", type: "Master the board, seize victory", description: "Step into the world of 16 Guti, where strategy meets charm! This beloved South-East Asian game lets you hop, capture, and outwit your opponent with just 16 pieces.", link: "https://play.google.com/store/apps/details?id=com.alignit.sixteenbead" },
+          { src: "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/img4.avif", title: "Tic Tac Toe Online", type: "Think fast, play smart", description: "Tic Tac Toe also known as Noughts and Crosses Game and XO Game In Iris English is a Pen and paper game. With this app, you don’t need pen and paper to play your beloved Tic Tac Toe With Friends.", link: "https://play.google.com/store/apps/details?id=com.alignit.tictactoe" },
+          { src: "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/img3.avif", title: "Shatranj", type: "Master the game of kings", description: "Chess: The ultimate game of strategy where every move counts. Outsmart your opponent, claim your throne!", link: "https://play.google.com/store/apps/details?id=com.alignit.chess" },
+
         ].map((item, index) => (
           <div className="item flex-shrink-0" key={index}>
             <img src={item.src} alt="" />
@@ -50,15 +50,16 @@ const Games = () => {
               <div className="description mt-2 text-sm">
                 {item.description}
               </div>
-              <div className="button mt-4">
-            <button className="bg-blue-500 text-white px-4 py-2 rounded">SEE MORE</button>
-          </div>
+              <div className="buttons mt-4">
+                <button className="bg-black text-white px-4 py-2 rounded-full">
+                  <a target='blank' href={item.link} > Download Now! </a></button>
+              </div>
             </div>
           </div>
         ))}
       </div>
       <div className="thumbnail ">
-        {["https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/ludo.avif",  "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/solo.avif","https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/tictactoe.avif","https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/shataranj.avif", "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/logo.avif"].map((src, index) => (
+        {["https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/ludo.avif", "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/solo.avif", "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/tictactoe.avif", "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/shataranj.avif", "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/logo.avif"].map((src, index) => (
           <div className="item   " key={index}>
             <img src={src} alt="" className="w-full h-full  object-cover" />
           </div>
