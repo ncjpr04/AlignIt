@@ -78,19 +78,20 @@ const Footer = () => {
                             </div>
                             <div className="flex w-full justify-center items-center  transition-all gap-1">
                                 <div
-                                    className="flex w-1/3 shrink hover:w-2/4 h-12 justify-center items-center rounded-2xl shadow-md shadow-[#db6868] text-white  bg-red-700 border-red-950 border-[1px] font-semibold duration-200 ease-in-out cursor-pointer"
+                                    className="flex w-1/3 shrink hover:w-2/4 h-12 justify-center items-center rounded-2xl shadow-md shadow-[#db6868] text-white  bg-red-700 border-red-950  font-semibold duration-200 ease-in-out cursor-pointer"
                                 >
-                                    YouTube
+                                   <a target='blank' href='https://www.youtube.com/channel/UCqVuV1C6yIyDF2-WpE5FBag'>
+                                   YouTube </a>
                                 </div>
                                 <div
-                                    className="flex w-1/3 h-12 shrink hover:w-2/4 justify-center items-center rounded-2xl shadow-md shadow-[#ce68db] text-white   bg-pink-700 border-pink-950 border-[1px] font-semibold duration-200 ease-in-out cursor-pointer"
+                                    className="flex w-1/3 h-12 shrink hover:w-2/4 justify-center items-center rounded-2xl shadow-md shadow-[#ce68db] text-white   bg-pink-700 border-pink-950  font-semibold duration-200 ease-in-out cursor-pointer"
                                 >
-                                    Instagram
+                                      <a target='blank' href='https://www.instagram.com/alignitgames/'>Instagram</a>
                                 </div>
                                 <div
-                                    className="flex shrink hover:w-2/4 w-1/3 h-12 justify-center items-center rounded-2xl shadow-md shadow-[#687ddb] text-white border-blue-950 border-[1px] bg-blue-700 font-semibold duration-200 ease-in-out cursor-pointer"
+                                    className="flex shrink hover:w-2/4 w-1/3 h-12 justify-center items-center rounded-2xl shadow-md shadow-[#687ddb] text-white border-blue-950  bg-blue-700 font-semibold duration-200 ease-in-out cursor-pointer"
                                 >
-                                    LinkedIn
+                                    <a target='blank' href='https://www.linkedin.com/company/align-it-games/'>LinkedIn</a>
                                 </div>
                             </div>
                         </div>
