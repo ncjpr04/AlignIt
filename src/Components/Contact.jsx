@@ -11,7 +11,7 @@ import { CiLinkedin } from "react-icons/ci";
 import { CiInstagram } from "react-icons/ci";
 function Contact() {
   return (
-    <div id='contact' className='relative main h-fit min-h-screen flex-wrap flex w-screen justify-center items-center  sm:p-10 p-4 bg-[#ddebff] '>
+    <div rel="preload" className='relative main h-fit min-h-screen flex-wrap flex w-screen justify-center items-center  sm:p-10 p-4 bg-[#ddebff] '>
       <iframe className='md:block hidden absolute h-full w-full left-0 top-0' src="https://ncjpr04.github.io/Hexagon-background-with-Cursor-effect/" frameborder="0"></iframe>
       <div className="inner relative flex flex-wrap gap-4 sm:p-4 p-2 border-black border-4 rounded-[2rem] shadow-2xl shadow-[#6898db] overflow-hidden bg-white h-fit w-full min-h-[70vh]  max-w-[1100px]">
         <div className="left grow flex justify-between flex-col  gap-10 rounded-2xl">

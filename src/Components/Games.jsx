@@ -32,7 +32,7 @@ const Games = () => {
   };
 
   return (
-    <div id='games'className="slider w-full h-full overflow-hidden" ref={sliderRef}>
+    <div rel="preload" id='games'className="slider w-full h-full overflow-hidden" ref={sliderRef}>
       <div className="list flex">
         {[
           { src: "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/img5.avif", title: "AlignIt", type: " Where Every Move Counts", description: "Building board games that dignify the interest of players and continuously improving the gaming experience, making games a part of life.", link: "https://play.google.com/store/apps/dev?id=6071653399714923628" },

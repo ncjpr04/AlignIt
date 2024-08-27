@@ -62,7 +62,7 @@ function ScrollMarque() {
     }, []);
 
     return (
-        <div id='reviews' className=' w-screen  relative bg-[#ddebff]'>
+        <div rel="preload"  id='reviews' className=' w-screen  relative bg-[#ddebff]'>
             <div id="page" className='md:h-screen  pb-10 bg-gradient-to-t from-white to-[#ddebff] md:w-full gap-5 overflow-hidden  flex flex-col lg:py-36  md:py-18 sm:pt-12 sm:pb-10 justify-center items-center '>
                 <div id="left1" className="h-1/3 gap-5 flex justify-center">
                     <a href="#" className='h-full min-h-36 max-w-[30%] lg:min-w-[40%] max-h-[200px] min-w-[500px]'>
