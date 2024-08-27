@@ -10,7 +10,7 @@ const Home = () => {
   useTextAnimation();
 
   return (
-    <div className='main w-screen h-fit relative flex justify-center to-[#ddebff] bg-gradient-to-b from-[#c7e4ffc7]   px-3 py-10 lg:px-6 md:px-6 sm:px-6 lg:py-10 md:py-10 sm:pt-12 sm:pb-10 items-center'>
+    <div id='home' className='main w-screen h-fit relative flex justify-center to-[#ddebff] bg-gradient-to-b from-[#c7e4ffc7]   px-3 py-10 lg:px-6 md:px-6 sm:px-6 lg:py-10 md:py-10 sm:pt-12 sm:pb-10 items-center'>
 
       <div className='overflow-hidden shadow-2xl shadow-[#6898db] z-10 backdrop-blur-md w-full min-h-[70vh] box-border rounded-xl lg:rounded-3xl justify-between flex bg-gradient-to-r  from-[#f9feff] via-[#ffffff] to-[#fff9f9]  border-black border-[2px] md:border-4  h-full my-1 lg:px-12 pt-12 lg:pb-12 pb-3 flex-col'>
 

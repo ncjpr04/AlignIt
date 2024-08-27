@@ -32,7 +32,7 @@ const Games = () => {
   };
 
   return (
-    <div className="slider w-full h-full overflow-hidden" ref={sliderRef}>
+    <div id='games'className="slider w-full h-full overflow-hidden" ref={sliderRef}>
       <div className="list flex">
         {[
           { src: "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/img5.avif", title: "AlignIt", type: " Where Every Move Counts", description: "Building board games that dignify the interest of players and continuously improving the gaming experience, making games a part of life.", link: "https://play.google.com/store/apps/dev?id=6071653399714923628" },
@@ -47,11 +47,11 @@ const Games = () => {
             <div className="content p-4">
               <div className="title text-xl font-bold">{item.title}</div>
               <div className="type text-lg">{item.type}</div>
-              <div className="description mt-2 text-sm">
+              <div className="description hidden lg:block mt-2 text-sm">
                 {item.description}
               </div>
               <div className="buttons mt-4">
-                <button className="bg-black text-white px-4 py-2 rounded-full">
+                <button className="bg-black flex hover:bg-gray-900 items-center  h-14 lg:h-10 lg:text-lg text-xl text-white  px-4 py-2 rounded-full">
                   <a target='blank' href={item.link} > Download Now! </a></button>
               </div>
             </div>

@@ -8,6 +8,15 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 import { gsap } from "gsap";
+import { Link, animateScroll as scroll } from 'react-scroll';
+
+const menuLinks = [
+  { text: "Home", to: "home"},
+  { text: "Games", to: "games" },
+  { text: "Reviews", to: "reviews" },
+  { text: "Contact Us", to: "contact" }
+];
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [showNavbar, setShowNavbar] = useState(true);
@@ -75,10 +84,16 @@ const Navbar = () => {
             </div>
             {/* Primary menu */}
             <div className="hidden lg:flex gap-8 text-[#fffdfd] font-extrabold">
-              <a href="/" className="flex items-center justify-center rounded-full py-1 px-3   hover:text-slate-100 hover:bg-red-600 duration-300">Home</a>
-              <a href="/Games" className="flex items-center justify-center rounded-full py-1 px-3  hover:text-slate-100 hover:bg-red-600 duration-300">Games</a>
-              <a href="/Reviews" className="flex items-center justify-center rounded-full py-1 px-3  hover:text-slate-100 hover:bg-red-600 duration-300">Reviews</a>
-              <a href="/contact" className="flex items-center justify-center rounded-full py-1 px-3  hover:text-slate-100 hover:bg-red-600 duration-300">Contact Us</a>
+              {menuLinks.map((item, index) => (
+                <Link
+                  key={index}
+                  to={item.to}
+                  smooth={true}
+                  className="flex items-center justify-center cursor-pointer rounded-full py-1 px-3 hover:text-slate-100 hover:bg-red-600 duration-300"
+                >
+                  {item.text}
+                </Link>
+              ))}
             </div>
           </div>
 
@@ -113,10 +128,16 @@ const Navbar = () => {
           <div className={`lg:hidden   overflow-hidden flex items-center rounded-3xl flex-col gap-12 ${!isOpen ? "h-0 " : "h-fit   fixed z-40 w-full bg-[#000000d7] border-[#000000] border-[1px]  ease-in-out   origin-top  duration-300 backdrop-blur-md max-w-xl shadow-md shadow-[#000000d2] "}`}>
             <div className="px-8 overflow-hidden">
               <div className="flex flex-col py-2 items-center font-bold tracking-wider">
-                <a href="/" className="w-full h-full flex items-center justify-center my-1 px-10 py-2 rounded-full hover:bg-red-600 text-white hover:text-slate-100 duration-300">Home</a>
-                <a href="/about" className="w-full h-full flex items-center justify-center my-1 px-10 py-2 rounded-full hover:bg-red-600 text-white hover:text-slate-100 duration-300">Games</a>
-                <a href="/classes" className="w-full h-full flex items-center justify-center my-1 px-10 py-2 rounded-full hover:bg-red-600 text-white hover:text-slate-100 duration-300">Reviews</a>
-                <a href="/contact" className="w-full h-full flex items-center justify-center my-1 px-10 py-2 rounded-full hover:bg-red-600 text-white hover:text-slate-100 duration-300">Contact Us</a>
+                {menuLinks.map((item, index) => (
+                  <Link
+                    key={index}
+                    to={item.to}
+                    smooth={true}
+                    className="w-full h-full flex cursor-pointer items-center justify-center my-1 px-10 py-2 rounded-full hover:bg-red-600 text-white hover:text-slate-100 duration-300"
+                  >
+                    {item.text}
+                  </Link>
+                ))}
               </div>
             </div>
           </div>

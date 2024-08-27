@@ -62,12 +62,10 @@ function ScrollMarque() {
     }, []);
 
     return (
-        <div className=' w-screen h-fit relative bg-[#ddebff]'>
-
-
-            <div id="page" className='md:h-screen  h-fit pb-10 bg-gradient-to-t from-white to-[#ddebff] md:w-full gap-5 overflow-hidden  flex flex-col lg:py-36  md:py-18 sm:pt-12 sm:pb-10 justify-center items-center '>
-                <div id="left1" className=" h-1/3 gap-5 flex justify-center">
-                    <a href="#" className='h-full max-w-[30%] lg:min-w-[40%] max-h-[200px] min-w-[500px]'>
+        <div id='reviews' className=' w-screen  relative bg-[#ddebff]'>
+            <div id="page" className='md:h-screen  pb-10 bg-gradient-to-t from-white to-[#ddebff] md:w-full gap-5 overflow-hidden  flex flex-col lg:py-36  md:py-18 sm:pt-12 sm:pb-10 justify-center items-center '>
+                <div id="left1" className="h-1/3 gap-5 flex justify-center">
+                    <a href="#" className='h-full min-h-36 max-w-[30%] lg:min-w-[40%] max-h-[200px] min-w-[500px]'>
                         <div className='h-full flex gap-2 items-center p-2 rounded-3xl  w-full bg-[#ddf4ffc7] border-[#00aeff] border-[1px] shadow-lg shadow-[#6898db]  cursor-pointer'>
                             <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/ludo.avif" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
                             <div className="left w-full p-1 h-full rounded-2xl shadow-md shadow-[#6898db] bg-white border-[#000000] border-[1px] items-center flex flex-col gap-1 justify-around">
@@ -84,7 +82,6 @@ function ScrollMarque() {
                                             {/* <FaRegStar /> */}
                                         </div>
                                     </h3>
-
                                 </div>
                                 <div className="Text w-full h-16 rounded-xl  text-black text-[14px]    text-center flex px-2 justify-center items-center">
                                     " Fun and engaging, perfect for family game nights. Love it! "
@@ -92,7 +89,7 @@ function ScrollMarque() {
                             </div>
                         </div>
                     </a>   
-                    <a href="#" className='h-full max-w-[30%] lg:min-w-[40%] max-h-[200px] min-w-[500px]'>
+                    <a href="#" className='h-full min-h-36 max-w-[30%] lg:min-w-[40%] max-h-[200px] min-w-[500px]'>
                         <div className='h-full flex gap-2 items-center p-2 rounded-3xl  w-full bg-[#ddf4ffc7] border-[#00aeff] border-[1px] shadow-lg shadow-[#6898db]  cursor-pointer'>
                             <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/solo.avif" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
                             <div className="left w-full p-1 h-full rounded-2xl shadow-md shadow-[#6898db] bg-white border-[#000000] border-[1px] items-center flex flex-col gap-1 justify-around">
@@ -109,7 +106,6 @@ function ScrollMarque() {
                                             <FaRegStar />
                                         </div>
                                     </h3>
-
                                 </div>
                                 <div className="Text w-full h-16 rounded-xl  text-black text-[14px]    text-center flex px-2 justify-center items-center">
                                     " Perfect blend of strategy and entertainment. The interface is user-friendly and engaging. Love it! "
@@ -117,10 +113,10 @@ function ScrollMarque() {
                             </div>
                         </div>
                     </a>
-                    <a href="#" className='h-full max-w-[30%] max-h-[200px] lg:min-w-[40%] min-w-[500px]'>
+                    <a href="#" className='h-full min-h-36 max-w-[30%] max-h-[200px] lg:min-w-[40%] min-w-[500px]'>
                         <div className='h-full flex gap-2 items-center p-2 rounded-3xl  w-full bg-[#ddf4ffc7] border-[#00aeff] border-[1px] shadow-lg shadow-[#6898db]  cursor-pointer'>
                             <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/ludo.avif" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
-                            <div className="left w-full p-1 h-full rounded-2xl shadow-md shadow-[#6898db] bg-white border-[#000000] border-[1px] items-center flex flex-col justify-around">
+                            <div className="left w-full p-1 h-full pb-2 rounded-2xl shadow-md shadow-[#6898db] bg-white border-[#000000] border-[1px] items-center flex flex-col justify-around">
                                 <div className="profile w-full h-16  flex   justify-center  md:mt-2 gap-1 px-2 ">
                                     <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/Nitin.avif" alt="" className='profile  w-14 h-14 hidden md:flex  bg-[#ddf4ffc7] rounded-xl' />
                                     <h3 className="info  w-full h-14  rounded-xl  flex items-center  text-lg font-semibold text-black justify-between">
@@ -169,7 +165,7 @@ function ScrollMarque() {
                     </a>
                 </div>
                 <div id="right" className=" h-1/3  gap-5 justify-center flex ">
-                    <a href="#" className='h-full max-w-[30%] lg:min-w-[40%] max-h-[200px] min-w-[500px]'>
+                    <a href="#" className='h-full min-h-36 max-w-[30%] lg:min-w-[40%] max-h-[200px] min-w-[500px]'>
                         <div className='h-full flex gap-2 items-center p-2 rounded-3xl  w-full bg-[#ddf4ffc7] border-[#00aeff] border-[1px] shadow-lg shadow-[#6898db]  cursor-pointer'>
                             <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/unlockcar.avif" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
                             <div className="left w-full p-1 h-full rounded-2xl shadow-md shadow-[#6898db] bg-white border-[#000000] border-[1px] items-center flex flex-col gap-1 justify-around">
@@ -194,7 +190,7 @@ function ScrollMarque() {
                             </div>
                         </div>
                     </a>
-                    <a href="#" className='h-full max-w-[30%] lg:min-w-[40%] max-h-[200px] min-w-[500px]'>
+                    <a href="#" className='h-full min-h-36 max-w-[30%] lg:min-w-[40%] max-h-[200px] min-w-[500px]'>
                         <div className='h-full flex gap-2 items-center p-2 rounded-3xl  w-full bg-[#ddf4ffc7] border-[#00aeff] border-[1px] shadow-lg shadow-[#6898db]  cursor-pointer'>
                             <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/tictactoe.avif" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
                             <div className="left w-full p-1 h-full rounded-2xl shadow-md shadow-[#6898db] bg-white border-[#000000] border-[1px] items-center flex flex-col gap-1 justify-around">
@@ -219,7 +215,7 @@ function ScrollMarque() {
                             </div>
                         </div>
                     </a>
-                    <a href="#" className='h-full max-w-[30%] lg:min-w-[40%] max-h-[200px] min-w-[500px]'>
+                    <a href="#" className='h-full min-h-36 max-w-[30%] lg:min-w-[40%] max-h-[200px] min-w-[500px]'>
                         <div className='h-full flex gap-2 items-center p-2 rounded-3xl  w-full bg-[#ddf4ffc7] border-[#00aeff] border-[1px] shadow-lg shadow-[#6898db]  cursor-pointer'>
                             <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/threemanmorris.avif" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
                             <div className="left w-full p-1 h-full rounded-2xl shadow-md shadow-[#6898db] bg-white border-[#000000] border-[1px] items-center flex flex-col gap-1 justify-around">
@@ -244,7 +240,7 @@ function ScrollMarque() {
                             </div>
                         </div>
                     </a>
-                    <a href="#" className='h-full max-w-[30%] lg:min-w-[40%] max-h-[200px] min-w-[500px]'>
+                    <a href="#" className='h-full min-h-36 max-w-[30%] lg:min-w-[40%] max-h-[200px] min-w-[500px]'>
                         <div className='h-full flex gap-2 items-center p-2 rounded-3xl  w-full bg-[#ddf4ffc7] border-[#00aeff] border-[1px] shadow-lg shadow-[#6898db]  cursor-pointer'>
                             <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/sudoku.avif" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
                             <div className="left w-full p-1 h-full rounded-2xl shadow-md shadow-[#6898db] bg-white border-[#000000] border-[1px] items-center flex flex-col gap-1 justify-around">
@@ -271,7 +267,7 @@ function ScrollMarque() {
                     </a>
                 </div>
                 <div id="left2" className="h-1/3 gap-5 justify-center flex ">
-                    <a href="#" className='h-full max-w-[30%] lg:min-w-[40%] max-h-[200px] min-w-[500px]'>
+                    <a href="#" className='h-full min-h-36 max-w-[30%] lg:min-w-[40%] max-h-[200px] min-w-[500px]'>
                         <div className='h-full flex gap-2 items-center p-2 rounded-3xl  w-full bg-[#ddf4ffc7] border-[#00aeff] border-[1px] shadow-lg shadow-[#6898db]  cursor-pointer'>
                             <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/mancala.avif" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
                             <div className="left w-full p-1 h-full rounded-2xl shadow-md shadow-[#6898db] bg-white border-[#000000] border-[1px] items-center flex flex-col gap-1 justify-around">
@@ -296,7 +292,7 @@ function ScrollMarque() {
                             </div>
                         </div>
                     </a>
-                    <a href="#" className='h-full max-w-[30%] lg:min-w-[40%] max-h-[200px] min-w-[500px]'>
+                    <a href="#" className='h-full min-h-36 max-w-[30%] lg:min-w-[40%] max-h-[200px] min-w-[500px]'>
                         <div className='h-full flex gap-2 items-center p-2 rounded-3xl  w-full bg-[#ddf4ffc7] border-[#00aeff] border-[1px] shadow-lg shadow-[#6898db]  cursor-pointer'>
                             <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/shataranj.avif" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
                             <div className="left w-full p-1 h-full rounded-2xl shadow-md shadow-[#6898db] bg-white border-[#000000] border-[1px] items-center flex flex-col gap-1 justify-around">
@@ -321,7 +317,7 @@ function ScrollMarque() {
                             </div>
                         </div>
                     </a>
-                    <a href="#" className='h-full max-w-[30%] lg:min-w-[40%] max-h-[200px] min-w-[500px]'>
+                    <a href="#" className='h-full min-h-36 max-w-[30%] lg:min-w-[40%] max-h-[200px] min-w-[500px]'>
                         <div className='h-full flex gap-2 items-center p-2 rounded-3xl  w-full bg-[#ddf4ffc7] border-[#00aeff] border-[1px] shadow-lg shadow-[#6898db]  cursor-pointer'>
                             <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/dominoes.avif" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
                             <div className="left w-full p-1 h-full rounded-2xl shadow-md shadow-[#6898db] bg-white border-[#000000] border-[1px] items-center flex flex-col gap-1 justify-around">
@@ -346,7 +342,7 @@ function ScrollMarque() {
                             </div>
                         </div>
                     </a>
-                    <a href="#" className='h-full max-w-[30%] lg:min-w-[40%] max-h-[200px] min-w-[500px]'>
+                    <a href="#" className='h-full min-h-36 max-w-[30%] lg:min-w-[40%] max-h-[200px] min-w-[500px]'>
                         <div className='h-full flex gap-2 items-center p-2 rounded-3xl  w-full bg-[#ddf4ffc7] border-[#00aeff] border-[1px] shadow-lg shadow-[#6898db]  cursor-pointer'>
                             <img src="https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/checkers.avif" alt="" className=' max-h-[100%] max-w-[40%] hidden md:flex justify-center items-center  rounded-2xl shadow-md shadow-[#6898db]  ' />
                             <div className="left w-full p-1 h-full rounded-2xl shadow-md shadow-[#6898db] bg-white border-[#000000] border-[1px] items-center flex flex-col gap-1 justify-around">
