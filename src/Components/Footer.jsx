@@ -10,7 +10,7 @@ const Footer = () => {
 
             <div>
 
-                <img preload className="absolute w-28 text-primary top-16" src="src/assets/image/logo.avif" alt="" />
+                <img className="absolute w-28 text-primary top-16" src="src/assets/image/logo.avif" alt="" />
                 <div className="flex h-fit flex-wrap  gap-6 justify-center ">
                     <div className='mt-10  flex justify-center '>
                         <div className="flex py-10 min-w-[300px] px-5 shadow-xl shadow-[#6898db] text-black border-[#000000] border-[1px] bg-[#fdfdfdc7] rounded-3xl flex-col  max-w-md justify-around gap-6">

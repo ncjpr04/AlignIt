@@ -17,7 +17,7 @@ function Contact() {
         <div className="left grow flex justify-between flex-col  gap-10 rounded-2xl">
           <div className="address gap-10 flex flex-col">
             <span className='logo'>
-              <img preload className='h-10 p-1 m-1' src="src/assets/logo.avif" alt="" />
+              <img className='h-10 p-1 m-1' src="src/assets/logo.avif" alt="" />
             </span>
             <div className="add-info gap-4 flex flex-col">
               <div className="info  bg-red h-fit w-full flex gap-4 ml-3">
