@@ -34,7 +34,7 @@ function GameList() {
             <div className="h-fit w-screen">
                 <div id="page" className='md:h-screen w-10 h-fit'>
                     <div className="slide text-black">
-                        <img src="src\assets\image\charbhar.avif" alt="" />
+                        <img preload src="src\assets\image\charbhar.avif" alt="" />
                         <div className="text"></div>
                     </div>
                 </div>

@@ -77,8 +77,8 @@ const Navbar = () => {
             <div>
               <a href="/" className="flex gap-1 font-bold text-gray-700 items-center">
                 <span className="h-7 text-primary flex justify-center items-center overflow-hidden">
-                  {/* <img src="https://github.com/ncjpr04/AlignIt/blob/main/src/assets/logo.avif?raw=true" className="h-full w-auto" alt="Logo" /> */}
-                  <img src="https://github.com/ncjpr04/AlignIt/blob/main/src/assets/image/logo.avif?raw=true" className=" w-16" alt="Logo" />
+                  {/* <img preload src="https://github.com/ncjpr04/AlignIt/blob/main/src/assets/logo.avif?raw=true" className="h-full w-auto" alt="Logo" /> */}
+                  <img preload src="https://github.com/ncjpr04/AlignIt/blob/main/src/assets/image/logo.avif?raw=true" className=" w-16" alt="Logo" />
                 </span>
               </a>
             </div>

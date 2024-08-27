@@ -43,7 +43,7 @@ const Games = () => {
 
         ].map((item, index) => (
           <div className="item flex-shrink-0" key={index}>
-            <img src={item.src} alt="" />
+            <img preload src={item.src} alt="" />
             <div className="content p-4">
               <div className="title text-xl font-bold">{item.title}</div>
               <div className="type text-lg">{item.type}</div>
@@ -61,7 +61,7 @@ const Games = () => {
       <div className="thumbnail ">
         {["https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/ludo.avif", "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/solo.avif", "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/tictactoe.avif", "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/shataranj.avif", "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/logo.avif"].map((src, index) => (
           <div className="item bg-white rounded-xl  " key={index}>
-            <img src={src} alt="" className="w-full h-full  object-cover" />
+            <img preload src={src} alt="" className="w-full h-full  object-cover" />
           </div>
         ))}
       </div>
