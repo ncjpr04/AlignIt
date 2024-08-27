@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Games.css'; // Ensure you have this CSS file linked
-import Home from './Home';
+
 const Games = () => {
   const [direction, setDirection] = useState('');
   const sliderRef = useRef(null);
@@ -32,7 +32,7 @@ const Games = () => {
   };
 
   return (
-    <div  id='games'className="slider w-full h-full overflow-hidden" ref={sliderRef}>
+    <div id="games" className="slider w-full h-full overflow-hidden" ref={sliderRef}>
       <div className="list flex">
         {[
           { src: "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/img5.avif", title: "AlignIt", type: " Where Every Move Counts", description: "Building board games that dignify the interest of players and continuously improving the gaming experience, making games a part of life.", link: "https://play.google.com/store/apps/dev?id=6071653399714923628" },
@@ -43,7 +43,8 @@ const Games = () => {
 
         ].map((item, index) => (
           <div className="item flex-shrink-0" key={index}>
-            <img src={item.src} alt="" />
+            <img   loading="lazy" 
+              decoding="async" src={item.src} alt="" />
             <div className="content p-4">
               <div className="title text-xl font-bold">{item.title}</div>
               <div className="type text-lg">{item.type}</div>
@@ -61,7 +62,8 @@ const Games = () => {
       <div className="thumbnail ">
         {["https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/ludo.avif", "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/solo.avif", "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/tictactoe.avif", "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/shataranj.avif", "https://raw.githubusercontent.com/ncjpr04/AlignIt/main/src/assets/image/logo.avif"].map((src, index) => (
           <div className="item bg-white rounded-xl  " key={index}>
-            <img src={src} alt="" className="w-full h-full  object-cover" />
+            <img   loading="lazy" 
+              decoding="async" src={src} alt="" className="w-full h-full  object-cover" />
           </div>
         ))}
       </div>
@@ -74,7 +76,6 @@ const Games = () => {
         </button>
       </div>
     </div>
-
   );
 };
 
